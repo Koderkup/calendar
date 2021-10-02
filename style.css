@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    background: url(img/back.jpg) no-repeat;
+    background-size: 100%;
+}
+.wrapper {
+    margin: auto;
+    border: solid black 1px;
+    width: 640px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    background-color: #31BBEE;
+    
+}
+
+.year {
+    border: solid black 1px;
+    width: 640px;
+    margin-bottom: 1px;
+    height: 20px;
+    color: #1D3365;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.mounth {
+    border: solid black 1px;
+    width: 640px;
+    height: 20px;
+    color: #1D3365;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.day {
+    height: 90px;
+    width: 90px;
+    border: solid black 1px;
+    color: #1D3365;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.prev,
+.next {
+    color: blue;
+    margin-top: 20px;
+    width: 100px;
+    position: relative;
+    left: 45%;
+
+}
+
+.weekday {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #1D3365;
+    height: 90px;
+    width: 90px;
+    border: solid white 1px;
+}
